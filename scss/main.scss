@@ -36,23 +36,18 @@
         .sell__content{
             width: 100%;
             height: 40%;
-            background-color: blue;
-            gap: 20px;
+            background-color: transparent;
+            // gap: 20px;
             @include flexMatch(row);
 
             .sellinjumia{
                 width: 40%;
                 height: 100%;
-                background-color: pink;
+                background-color: transparent;
                 @include flexMatch(row);
                 align-items: center;
 
-                .ydoing{
-                    width: 26%;
-                    height: 1rem;
-                    background-color: green;
-                    @include flexCenter(row);
-                }
+                
 
                 .sellbox{
                     width: 26%;
@@ -77,6 +72,14 @@
                 }
 
                 
+            }
+
+            .ydoing{
+                width: 60%;
+                height: 100%;
+                background-color: green;
+                @include flexMatch(row);
+                align-items: center;
             }
         }
     }

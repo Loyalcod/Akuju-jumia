@@ -62,8 +62,7 @@
 .surfacetop__box .sell__content {
   width: 100%;
   height: 40%;
-  background-color: blue;
-  gap: 20px;
+  background-color: transparent;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -76,7 +75,7 @@
 .surfacetop__box .sell__content .sellinjumia {
   width: 40%;
   height: 100%;
-  background-color: pink;
+  background-color: transparent;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -84,25 +83,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.surfacetop__box .sell__content .sellinjumia .ydoing {
-  width: 26%;
-  height: 1rem;
-  background-color: green;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -126,5 +106,21 @@
 
 .surfacetop__box .sell__content .sellinjumia .sellbox .onsell.active {
   text-decoration: underline;
+}
+
+.surfacetop__box .sell__content .ydoing {
+  width: 60%;
+  height: 100%;
+  background-color: green;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=main.css.map */
