@@ -18,6 +18,11 @@
     height: 90px;
     @include flexCenter(column);
     background-color: $primary-color;
+    // position: ;
+
+    @include mobile__6_4{
+        display: none;
+    }
 
     &__box{
         width: 85.7%;
@@ -57,12 +62,15 @@
 
                     .iconify{
                         color: $secondary-color;
+                        width: 13px;
+                        height: 13px;
                     }
 
                     .onsell{
                         text-decoration: none;
                         color: $secondary-color;
                         font-family: robotoregular;
+                        font-size: 14px;
 
                         &.active{
                             text-decoration: underline;
@@ -79,14 +87,822 @@
                 height: 100%;
                 background-color: transparent;
                 @include flexMatch(row);
+                gap: 25px;
                 align-items: center;
+                // cursor: pointer;
 
                 .firstlogo{
                     width: 85px;
                     height: 20px;
                     background-color: transparent;
                 }
+                .paylogo{
+                    width: 54px;
+                    height: 20px;
+                    background-color: transparent;
+                    cursor: pointer;
+                    @include flexMatch(row);
+                    align-items: center;
+                    gap: 5px;
+                    
+
+                    .underlinepayOne{
+                        font-family: 'Tahoma';
+                        font-weight: bold;
+                        color: black;
+
+                        &.active{
+                            color: darkorange;
+                            font-family: 'Tahoma';
+                        font-weight: bold;
+                        }
+                    }
+
+                    
+                }
+
+                .paylogoone{
+                    width: 54px;
+                    height: 20px;
+                    background-color: transparent;
+                    cursor: pointer;
+                    @include flexMatch(row);
+                    align-items: center;
+                    gap: 5px;
+                    
+
+                    .underlinepayOne1{
+                        font-family: 'Tahoma';
+                        font-weight: bold;
+                        color: black;
+
+                        &.active{
+                            color: darkorange;
+                            font-family: 'Tahoma';
+                        font-weight: bold;
+                        }
+                    }
+
+                    
+                }
+
+                .paylogotwo{
+                    width: 54px;
+                    height: 20px;
+                    background-color: transparent;
+                    cursor: pointer;
+                    @include flexMatch(row);
+                    align-items: center;
+                    gap: 5px;
+                    
+
+                    .underlinepayOne2{
+                        font-family: 'Tahoma';
+                        font-weight: bold;
+                        color: black;
+
+                        &.active{
+                            color: darkorange;
+                            font-family: 'Tahoma';
+                        font-weight: bold;
+                        }
+                    }
+
+                    
+                }
+
+                .paylogothree{
+                    width: 54px;
+                    height: 20px;
+                    background-color: transparent;
+                    cursor: pointer;
+                    @include flexMatch(row);
+                    align-items: center;
+                    gap: 5px;
+                    
+
+                    .underlinepayOne3{
+                        font-family: 'Tahoma';
+                        font-weight: bold;
+                        color: black;
+
+                        &.active{
+                            color: darkorange;
+                            font-family: 'Tahoma';
+                        font-weight: bold;
+                        }
+                    }
+
+                    
+                }
+                
             }
         }
     }
 }
+
+.logotop{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    display: none;
+
+    @include mobile__6_4{
+        @include flexCenter(column);
+    }
+}
+
+
+//  this the official search, login, help and cart section
+.nav{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    box-shadow: 0px 1px 2px 0.4px rgba(0, 0, 0, 0.25);
+    @include flexCenter(column);
+    // position:append($list1: , $val: , $separator: ); 
+    // margin-top: 90px;
+    z-index: 3;
+
+    &__box{
+        width: 85.7%;
+        height: 70%;
+        background-color: transparent;
+        @include flexMatch(row);
+        @include mobile__6_4{
+            width: 95%;
+            // background-color: purple;
+        }
+
+        .nav__boxone{
+            width: 30%;
+            height: 100%;
+            background-color: transparent;
+            @include flexMatch(column);
+            justify-content: center;
+
+            .iconify{
+                display: none;
+                width: 50px;
+                height: 50px;
+            }
+
+            @include mobile__6_4{
+                // background-color: pink;
+                width: 20%;
+                @include flexMatch(column);
+                // align-items: center;
+
+                .jumialog{
+                    display: none;
+                }
+
+                .iconify{
+                    display: block;
+                    width: 30px;
+                    height: 30px;
+                    text-align: left;
+
+                }
+            }
+
+            
+        }
+        
+        .nav__boxtwo{
+            width: 70%;
+            height: 100%;
+            background-color: transparent;
+            @include flexMatch(row);
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+
+            @include mobile__6_4{
+                gap: 20px;
+                width: 80%;
+                // background-color: pink;
+            }   
+
+            
+            .nav__searchbox{
+                width: 83%;
+                height: 70%;
+                background-color: transparent;
+                overflow: hidden;
+                border-radius: 3px;
+                border: 1.7px solid  #e2e2e4;
+
+                @include mobile__6_4{
+                    width: 70%;
+                }                                
+
+                .iconify{
+                    position: absolute;
+                    width: 32px;
+                    height: 32px;
+                    z-index: 0;
+                }
+
+                .mainsearch{
+                    width: 100%;
+                    height: 100%;
+                    outline: none;
+                    border: none;
+                    z-index: 1;
+                    font-size: 20px;
+                }
+            }
+
+            .searchBtn{
+                height: 70%;
+                width: 12%;
+                background-color: $secondary-color;
+                border: none;
+                outline: none;
+                border-radius: 3px;
+                color: white;
+                font-family: robotoregular;
+                font-size: 15px;
+
+                &:hover{
+                    background-color: $hover-color;
+                    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+                }
+
+                @include mobile__6_4{
+                    width: 30%;
+                    // margin-left: 20px;
+                }
+        
+
+            }
+        }
+
+        .nav__boxthree{
+            width: 30%;
+            height: 100%;
+            background-color: transparent;
+            @include flexMatch(row);
+            align-items: center;
+            gap: 20px;
+
+            @include mobile__6_4{
+                display: none;
+            }
+
+            .threebox{
+                width: 30%;
+                height: 70%;
+                background-color: transparent;
+                @include flexMatch(row);
+                align-items: center;
+                // justify-content: center;
+                gap: 5px;
+
+                &:hover{
+                    color: $secondary-color;
+                }
+
+                .loginlog{
+                    font-family: robotoregular;
+                    font-size: 14px;
+                }
+
+                .iconone{
+                    width: 25px;
+                    height: 25px;
+                }
+
+                .absotwoon{
+                    position: absolute;
+                    width: 200px;
+                    height: 300px;
+                    background-color: white;
+                    margin-left: -75px;
+                    margin-top: 350px;
+                    box-shadow: 0px 0px 5px 0.2px rgba(0, 0, 0, 0.25);
+                    @include flexMatch(column);
+                    z-index: 8;
+
+                    .logone{
+                        width: 100%;
+                        height: 25%;
+                        background-color: transparent;
+                        @include flexCenter(column);
+                        border-bottom: 2px solid #c0bfbf;
+
+                        .logbtn{
+                            width: 80%;
+                            height: 55%;
+                            background-color: $secondary-color;
+                            outline: none;
+                            border: none;
+                            box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25);
+                            border-radius: 3px;
+                            font-size: 14px;
+                            color: white;
+                        }
+
+                        .dor{
+                            width: 40%;
+                            height: 10%;
+                            position: absolute;
+                            background-color: white;
+                            margin-top: 100px;
+                            text-align: center;
+                            font-family: robotoregular;
+                            color: #7e7e81;
+                        }
+
+                    }
+
+                    .absooneone{
+                        width: 100%;
+                        height: 25%;
+                        background-color: transparent;
+                        @include flexCenter(column);
+                        border-bottom: 2px solid #c0bfbf;
+
+                        .createaccount{
+                            color: $secondary-color;
+                            text-decoration: none;
+                            font-family: robotobold;
+                        }
+                    }
+
+                    .absoonetwo{
+                        width: 100%;
+                        height: 50%;
+                        background-color: transparent;
+                        @include flexMatch(column);
+
+                        .accountone{
+                            flex: 1;
+                            @include flexMatch(row);
+                            gap: 20px;
+                            align-items: center;
+
+                            &:hover{
+                                background-color:$hover-colorone;
+                            }
+
+                            .iconify{
+                                margin-left: 20px;
+                            }
+
+                            .foracct{
+                                text-decoration: none;
+                                color: $needed-color;
+                                font-family: robotoregular;
+                            }
+
+                        }
+
+                        .orders{
+                            flex: 1;
+                            @include flexMatch(row);
+                            align-items: center;
+                            gap: 20px;
+
+                            &:hover{
+                                background-color:$hover-colorone;
+                            }
+
+                            .iconify{
+                                margin-left: 20px;
+                                width: 25px;
+                                height: 25px;
+                            }
+
+                            .fororders{
+                                text-decoration: none;
+                                color: $needed-color;
+                                font-family: robotoregular;
+                            }
+                        }
+
+                        .saveditems{
+                            flex: 1;
+                            @include flexMatch(row);
+                            align-items: center;
+                            gap: 20px;
+
+                            &:hover{
+                                background-color:$hover-colorone;
+                            }
+
+                            .iconify{
+                                margin-left: 20px;
+                                width: 25px;
+                                height: 25px;
+                            }
+
+                            .forsave{
+                                text-decoration: none;
+                                color: $needed-color;
+                                font-family: robotoregular;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .threeboxone{
+                width: 30%;
+                height: 70%;
+                background-color: transparent;
+                @include flexMatch(row);
+                align-items: center;
+                // justify-content: center;
+                gap: 5px;
+
+                &:hover{
+                    color: $secondary-color;
+                }
+
+                .icontwo{
+                    width: 20px;
+                    height: 20px;
+                }
+
+                .loginlog{
+                    font-family: robotoregular;
+                    font-size: 14px;
+                }
+
+                .iconone{
+                    width: 25px;
+                    height: 25px;
+                }
+
+                .absoone{
+                    position: absolute;
+                    width: 200px;
+                    height: 300px;
+                    background-color: white;
+                    margin-left: -75px;
+                    margin-top: 350px;
+                    box-shadow: 0px 0px 5px 0.2px rgba(0, 0, 0, 0.25);
+                    @include flexMatch(column);
+                    z-index: 9;
+
+                    .logone{
+                        width: 100%;
+                        height: 25%;
+                        background-color: transparent;
+                        @include flexCenter(column);
+                        border-bottom: 2px solid #c0bfbf;
+
+                        .logbtn{
+                            width: 80%;
+                            height: 55%;
+                            background-color: $secondary-color;
+                            outline: none;
+                            border: none;
+                            box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25);
+                            border-radius: 3px;
+                            font-size: 14px;
+                            color: white;
+                        }
+
+                        .dor{
+                            width: 40%;
+                            height: 10%;
+                            position: absolute;
+                            background-color: white;
+                            margin-top: 100px;
+                            text-align: center;
+                            font-family: robotoregular;
+                            color: #7e7e81;
+                        }
+
+                    }
+
+                    .absooneone{
+                        width: 100%;
+                        height: 25%;
+                        background-color: transparent;
+                        @include flexCenter(column);
+                        border-bottom: 2px solid #c0bfbf;
+
+                        .createaccount{
+                            color: $secondary-color;
+                            text-decoration: none;
+                            font-family: robotobold;
+                        }
+                    }
+
+                    .absoonetwo{
+                        width: 100%;
+                        height: 50%;
+                        background-color: transparent;
+                        @include flexMatch(column);
+
+                        .accountone{
+                            flex: 1;
+                            @include flexMatch(row);
+                            gap: 20px;
+                            align-items: center;
+
+                            &:hover{
+                                background-color:$hover-colorone;
+                            }
+
+                            .iconify{
+                                margin-left: 20px;
+                            }
+
+                            .foracct{
+                                text-decoration: none;
+                                color: $needed-color;
+                                font-family: robotoregular;
+                            }
+
+                        }
+
+                        .orders{
+                            flex: 1;
+                            @include flexMatch(row);
+                            align-items: center;
+                            gap: 20px;
+
+                            &:hover{
+                                background-color:$hover-colorone;
+                            }
+
+                            .iconify{
+                                margin-left: 20px;
+                                width: 25px;
+                                height: 25px;
+                            }
+
+                            .fororders{
+                                text-decoration: none;
+                                color: $needed-color;
+                                font-family: robotoregular;
+                            }
+                        }
+
+                        .saveditems{
+                            flex: 1;
+                            @include flexMatch(row);
+                            align-items: center;
+                            gap: 20px;
+
+                            &:hover{
+                                background-color:$hover-colorone;
+                            }
+
+                            .iconify{
+                                margin-left: 20px;
+                                width: 25px;
+                                height: 25px;
+                            }
+
+                            .forsave{
+                                text-decoration: none;
+                                color: $needed-color;
+                                font-family: robotoregular;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .threeboxtwo{
+                width: 30%;
+                height: 70%;
+                background-color: transparent;
+                @include flexMatch(row);
+                align-items: center;
+                // justify-content: center;
+                // justify-content: center;
+                gap: 10px;
+
+                &:hover{
+                    color: $secondary-color;
+                }
+
+                .icontwo{
+                    width: 20px;
+                    height: 20px;
+                    margin-left: 15px;
+                }
+
+                .loginlog{
+                    font-family: robotoregular;
+                    font-size: 14px;
+                    // float: left;
+                    margin: 0px;
+                    padding: 0px;
+                    // margin-left: 10px;
+                }
+
+                .iconone{
+                    width: 25px;
+                    height: 25px;
+                    
+                }
+            }
+        }
+    }
+}
+
+// what what nna oga show
+
+
+
+//  the end of the mobile section for login and help
+
+// this  is for the wallpaper section.
+.wallpaper{
+    width: 100%;
+    height: 2000px;
+    background-color: $primary-color;
+    @include flexCenter(column);
+    // margin-top: 10px;
+
+    .generalcont{
+        width: 85%;
+        height: 1970px;
+        background-color: transparent;
+        @include flexMatch(column);
+
+        .wallpaperbox{
+            width: 100%;
+            height: 370px;
+            background-color: transparent;
+            @include flexMatch(row);
+            gap: 10px;
+
+            .walllink{
+                width: 20%;
+                height: 100%;
+                background-color: white;
+                border: none;
+                border-radius: 10px;
+            }
+
+            .wallpicture{
+                width: 60%;
+                height: 100%;
+                background-color: transparent;
+                border: none;
+                border-radius: 10px;
+                @include flexMatch(column);
+
+                // .arrowbox{
+                //     position: absolute;
+                //     width: 40px;
+                //     height: 50px;
+                //     background-color: #a5a5a5cc;
+                //     margin-top: 150px;
+                //     @include flexCenter(column);
+                //     z-index: 10;
+
+                //     .iconify{
+                //        color: white;
+                //        width: 30px;
+                //        height: 30px; 
+                //     }
+                // }
+
+                // .arrowboxone{
+                //     position: absolute;
+                //     width: 40px;
+                //     height: 50px;
+                //     background-color: #252424cc;
+                //     margin-left: 635px;
+                //     margin-top: 150px;
+                //     @include flexCenter(column);
+                //     z-index: 10;
+
+                //     .iconify{
+                //        color: white;
+                //        width: 30px;
+                //        height: 30px; 
+                //     }
+                // }
+
+               .startpic{
+                   width: 100%;
+                   height: 100%;
+                   border-radius: 10px;
+
+                   .firstpicone{
+                    width: 50%;
+                    height: 60%;
+                    position: absolute;
+                    z-index:6;
+                    
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 10px;
+                    }
+
+                    
+                }
+                .firstpictwo{
+                    width: 50%;
+                    height: 60%;
+                    position: absolute;
+                    z-index:5;
+
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 10px;
+                    }
+
+                    
+                }
+                .firstpicthree{
+                    width: 50%;
+                    height: 60%;
+                    position: absolute;
+                    z-index:4;
+
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 10px;
+                    }
+
+                    
+                }
+                .firstpicfour{
+                    width: 50%;
+                    height: 60%;
+                    position: absolute;
+                    z-index:3;
+
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 10px;
+                    }
+
+                    
+                }
+                .firstpicfive{
+                    width: 50%;
+                    height: 60%;
+                    position: absolute;
+                    z-index:2;
+
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 10px;
+                    }
+
+                    
+                }
+                .firstpicsix{
+                    width: 50%;
+                    height: 60%;
+                    position: absolute;
+                    z-index:1;
+
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 10px;
+                    }
+
+                    
+                }
+               }
+            }
+
+            .walladvert{
+                width: 20%;
+                height: 100%;
+                background-color: transparent;
+                border: none;
+                border-radius: 10px;
+                @include flexCenter(column);
+                gap: 10px;
+
+                .walladvertone{
+                    width: 100%;
+                    height: 50%;
+                    background-color: black;
+                    border: none;
+                    border-radius: 10px;
+
+                    .walladvertpic{
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+  

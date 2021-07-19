@@ -39,6 +39,12 @@
   background-color: #f9fafb;
 }
 
+@media (max-width: 6.4in) {
+  .surfacetop {
+    display: none;
+  }
+}
+
 .surfacetop__box {
   width: 85.7%;
   height: 90px;
@@ -96,12 +102,15 @@
 
 .surfacetop__box .sell__content .sellinjumia .sellbox .iconify {
   color: #f68b1e;
+  width: 13px;
+  height: 13px;
 }
 
 .surfacetop__box .sell__content .sellinjumia .sellbox .onsell {
   text-decoration: none;
   color: #f68b1e;
   font-family: robotoregular;
+  font-size: 14px;
 }
 
 .surfacetop__box .sell__content .sellinjumia .sellbox .onsell.active {
@@ -119,6 +128,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  gap: 25px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -128,5 +138,1033 @@
   width: 85px;
   height: 20px;
   background-color: transparent;
+}
+
+.surfacetop__box .sell__content .ydoing .paylogo {
+  width: 54px;
+  height: 20px;
+  background-color: transparent;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+}
+
+.surfacetop__box .sell__content .ydoing .paylogo .underlinepayOne {
+  font-family: 'Tahoma';
+  font-weight: bold;
+  color: black;
+}
+
+.surfacetop__box .sell__content .ydoing .paylogo .underlinepayOne.active {
+  color: darkorange;
+  font-family: 'Tahoma';
+  font-weight: bold;
+}
+
+.surfacetop__box .sell__content .ydoing .paylogoone {
+  width: 54px;
+  height: 20px;
+  background-color: transparent;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+}
+
+.surfacetop__box .sell__content .ydoing .paylogoone .underlinepayOne1 {
+  font-family: 'Tahoma';
+  font-weight: bold;
+  color: black;
+}
+
+.surfacetop__box .sell__content .ydoing .paylogoone .underlinepayOne1.active {
+  color: darkorange;
+  font-family: 'Tahoma';
+  font-weight: bold;
+}
+
+.surfacetop__box .sell__content .ydoing .paylogotwo {
+  width: 54px;
+  height: 20px;
+  background-color: transparent;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+}
+
+.surfacetop__box .sell__content .ydoing .paylogotwo .underlinepayOne2 {
+  font-family: 'Tahoma';
+  font-weight: bold;
+  color: black;
+}
+
+.surfacetop__box .sell__content .ydoing .paylogotwo .underlinepayOne2.active {
+  color: darkorange;
+  font-family: 'Tahoma';
+  font-weight: bold;
+}
+
+.surfacetop__box .sell__content .ydoing .paylogothree {
+  width: 54px;
+  height: 20px;
+  background-color: transparent;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+}
+
+.surfacetop__box .sell__content .ydoing .paylogothree .underlinepayOne3 {
+  font-family: 'Tahoma';
+  font-weight: bold;
+  color: black;
+}
+
+.surfacetop__box .sell__content .ydoing .paylogothree .underlinepayOne3.active {
+  color: darkorange;
+  font-family: 'Tahoma';
+  font-weight: bold;
+}
+
+.logotop {
+  width: 100%;
+  height: 50px;
+  background-color: transparent;
+  display: none;
+}
+
+@media (max-width: 6.4in) {
+  .logotop {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.nav {
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  -webkit-box-shadow: 0px 1px 2px 0.4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 1px 2px 0.4px rgba(0, 0, 0, 0.25);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 3;
+}
+
+.nav__box {
+  width: 85.7%;
+  height: 70%;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+@media (max-width: 6.4in) {
+  .nav__box {
+    width: 95%;
+  }
+}
+
+.nav__box .nav__boxone {
+  width: 30%;
+  height: 100%;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav__box .nav__boxone .iconify {
+  display: none;
+  width: 50px;
+  height: 50px;
+}
+
+@media (max-width: 6.4in) {
+  .nav__box .nav__boxone {
+    width: 20%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .nav__box .nav__boxone .jumialog {
+    display: none;
+  }
+  .nav__box .nav__boxone .iconify {
+    display: block;
+    width: 30px;
+    height: 30px;
+    text-align: left;
+  }
+}
+
+.nav__box .nav__boxtwo {
+  width: 70%;
+  height: 100%;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+@media (max-width: 6.4in) {
+  .nav__box .nav__boxtwo {
+    gap: 20px;
+    width: 80%;
+  }
+}
+
+.nav__box .nav__boxtwo .nav__searchbox {
+  width: 83%;
+  height: 70%;
+  background-color: transparent;
+  overflow: hidden;
+  border-radius: 3px;
+  border: 1.7px solid  #e2e2e4;
+}
+
+@media (max-width: 6.4in) {
+  .nav__box .nav__boxtwo .nav__searchbox {
+    width: 70%;
+  }
+}
+
+.nav__box .nav__boxtwo .nav__searchbox .iconify {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  z-index: 0;
+}
+
+.nav__box .nav__boxtwo .nav__searchbox .mainsearch {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+  z-index: 1;
+  font-size: 20px;
+}
+
+.nav__box .nav__boxtwo .searchBtn {
+  height: 70%;
+  width: 12%;
+  background-color: #f68b1e;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  color: white;
+  font-family: robotoregular;
+  font-size: 15px;
+}
+
+.nav__box .nav__boxtwo .searchBtn:hover {
+  background-color: #da730c;
+  -webkit-box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 6.4in) {
+  .nav__box .nav__boxtwo .searchBtn {
+    width: 30%;
+  }
+}
+
+.nav__box .nav__boxthree {
+  width: 30%;
+  height: 100%;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+@media (max-width: 6.4in) {
+  .nav__box .nav__boxthree {
+    display: none;
+  }
+}
+
+.nav__box .nav__boxthree .threebox {
+  width: 30%;
+  height: 70%;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+}
+
+.nav__box .nav__boxthree .threebox:hover {
+  color: #f68b1e;
+}
+
+.nav__box .nav__boxthree .threebox .loginlog {
+  font-family: robotoregular;
+  font-size: 14px;
+}
+
+.nav__box .nav__boxthree .threebox .iconone {
+  width: 25px;
+  height: 25px;
+}
+
+.nav__box .nav__boxthree .threebox .absotwoon {
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  background-color: white;
+  margin-left: -75px;
+  margin-top: 350px;
+  -webkit-box-shadow: 0px 0px 5px 0.2px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 5px 0.2px rgba(0, 0, 0, 0.25);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 8;
+}
+
+.nav__box .nav__boxthree .threebox .absotwoon .logone {
+  width: 100%;
+  height: 25%;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 2px solid #c0bfbf;
+}
+
+.nav__box .nav__boxthree .threebox .absotwoon .logone .logbtn {
+  width: 80%;
+  height: 55%;
+  background-color: #f68b1e;
+  outline: none;
+  border: none;
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  font-size: 14px;
+  color: white;
+}
+
+.nav__box .nav__boxthree .threebox .absotwoon .logone .dor {
+  width: 40%;
+  height: 10%;
+  position: absolute;
+  background-color: white;
+  margin-top: 100px;
+  text-align: center;
+  font-family: robotoregular;
+  color: #7e7e81;
+}
+
+.nav__box .nav__boxthree .threebox .absotwoon .absooneone {
+  width: 100%;
+  height: 25%;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 2px solid #c0bfbf;
+}
+
+.nav__box .nav__boxthree .threebox .absotwoon .absooneone .createaccount {
+  color: #f68b1e;
+  text-decoration: none;
+  font-family: robotobold;
+}
+
+.nav__box .nav__boxthree .threebox .absotwoon .absoonetwo {
+  width: 100%;
+  height: 50%;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.nav__box .nav__boxthree .threebox .absotwoon .absoonetwo .accountone {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav__box .nav__boxthree .threebox .absotwoon .absoonetwo .accountone:hover {
+  background-color: #c7c7c7;
+}
+
+.nav__box .nav__boxthree .threebox .absotwoon .absoonetwo .accountone .iconify {
+  margin-left: 20px;
+}
+
+.nav__box .nav__boxthree .threebox .absotwoon .absoonetwo .accountone .foracct {
+  text-decoration: none;
+  color: #000;
+  font-family: robotoregular;
+}
+
+.nav__box .nav__boxthree .threebox .absotwoon .absoonetwo .orders {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+.nav__box .nav__boxthree .threebox .absotwoon .absoonetwo .orders:hover {
+  background-color: #c7c7c7;
+}
+
+.nav__box .nav__boxthree .threebox .absotwoon .absoonetwo .orders .iconify {
+  margin-left: 20px;
+  width: 25px;
+  height: 25px;
+}
+
+.nav__box .nav__boxthree .threebox .absotwoon .absoonetwo .orders .fororders {
+  text-decoration: none;
+  color: #000;
+  font-family: robotoregular;
+}
+
+.nav__box .nav__boxthree .threebox .absotwoon .absoonetwo .saveditems {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+.nav__box .nav__boxthree .threebox .absotwoon .absoonetwo .saveditems:hover {
+  background-color: #c7c7c7;
+}
+
+.nav__box .nav__boxthree .threebox .absotwoon .absoonetwo .saveditems .iconify {
+  margin-left: 20px;
+  width: 25px;
+  height: 25px;
+}
+
+.nav__box .nav__boxthree .threebox .absotwoon .absoonetwo .saveditems .forsave {
+  text-decoration: none;
+  color: #000;
+  font-family: robotoregular;
+}
+
+.nav__box .nav__boxthree .threeboxone {
+  width: 30%;
+  height: 70%;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+}
+
+.nav__box .nav__boxthree .threeboxone:hover {
+  color: #f68b1e;
+}
+
+.nav__box .nav__boxthree .threeboxone .icontwo {
+  width: 20px;
+  height: 20px;
+}
+
+.nav__box .nav__boxthree .threeboxone .loginlog {
+  font-family: robotoregular;
+  font-size: 14px;
+}
+
+.nav__box .nav__boxthree .threeboxone .iconone {
+  width: 25px;
+  height: 25px;
+}
+
+.nav__box .nav__boxthree .threeboxone .absoone {
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  background-color: white;
+  margin-left: -75px;
+  margin-top: 350px;
+  -webkit-box-shadow: 0px 0px 5px 0.2px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 5px 0.2px rgba(0, 0, 0, 0.25);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 9;
+}
+
+.nav__box .nav__boxthree .threeboxone .absoone .logone {
+  width: 100%;
+  height: 25%;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 2px solid #c0bfbf;
+}
+
+.nav__box .nav__boxthree .threeboxone .absoone .logone .logbtn {
+  width: 80%;
+  height: 55%;
+  background-color: #f68b1e;
+  outline: none;
+  border: none;
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  font-size: 14px;
+  color: white;
+}
+
+.nav__box .nav__boxthree .threeboxone .absoone .logone .dor {
+  width: 40%;
+  height: 10%;
+  position: absolute;
+  background-color: white;
+  margin-top: 100px;
+  text-align: center;
+  font-family: robotoregular;
+  color: #7e7e81;
+}
+
+.nav__box .nav__boxthree .threeboxone .absoone .absooneone {
+  width: 100%;
+  height: 25%;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 2px solid #c0bfbf;
+}
+
+.nav__box .nav__boxthree .threeboxone .absoone .absooneone .createaccount {
+  color: #f68b1e;
+  text-decoration: none;
+  font-family: robotobold;
+}
+
+.nav__box .nav__boxthree .threeboxone .absoone .absoonetwo {
+  width: 100%;
+  height: 50%;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.nav__box .nav__boxthree .threeboxone .absoone .absoonetwo .accountone {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav__box .nav__boxthree .threeboxone .absoone .absoonetwo .accountone:hover {
+  background-color: #c7c7c7;
+}
+
+.nav__box .nav__boxthree .threeboxone .absoone .absoonetwo .accountone .iconify {
+  margin-left: 20px;
+}
+
+.nav__box .nav__boxthree .threeboxone .absoone .absoonetwo .accountone .foracct {
+  text-decoration: none;
+  color: #000;
+  font-family: robotoregular;
+}
+
+.nav__box .nav__boxthree .threeboxone .absoone .absoonetwo .orders {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+.nav__box .nav__boxthree .threeboxone .absoone .absoonetwo .orders:hover {
+  background-color: #c7c7c7;
+}
+
+.nav__box .nav__boxthree .threeboxone .absoone .absoonetwo .orders .iconify {
+  margin-left: 20px;
+  width: 25px;
+  height: 25px;
+}
+
+.nav__box .nav__boxthree .threeboxone .absoone .absoonetwo .orders .fororders {
+  text-decoration: none;
+  color: #000;
+  font-family: robotoregular;
+}
+
+.nav__box .nav__boxthree .threeboxone .absoone .absoonetwo .saveditems {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+.nav__box .nav__boxthree .threeboxone .absoone .absoonetwo .saveditems:hover {
+  background-color: #c7c7c7;
+}
+
+.nav__box .nav__boxthree .threeboxone .absoone .absoonetwo .saveditems .iconify {
+  margin-left: 20px;
+  width: 25px;
+  height: 25px;
+}
+
+.nav__box .nav__boxthree .threeboxone .absoone .absoonetwo .saveditems .forsave {
+  text-decoration: none;
+  color: #000;
+  font-family: robotoregular;
+}
+
+.nav__box .nav__boxthree .threeboxtwo {
+  width: 30%;
+  height: 70%;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.nav__box .nav__boxthree .threeboxtwo:hover {
+  color: #f68b1e;
+}
+
+.nav__box .nav__boxthree .threeboxtwo .icontwo {
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+}
+
+.nav__box .nav__boxthree .threeboxtwo .loginlog {
+  font-family: robotoregular;
+  font-size: 14px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav__box .nav__boxthree .threeboxtwo .iconone {
+  width: 25px;
+  height: 25px;
+}
+
+.wallpaper {
+  width: 100%;
+  height: 2000px;
+  background-color: #f9fafb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wallpaper .generalcont {
+  width: 85%;
+  height: 1970px;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.wallpaper .generalcont .wallpaperbox {
+  width: 100%;
+  height: 370px;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 10px;
+}
+
+.wallpaper .generalcont .wallpaperbox .walllink {
+  width: 20%;
+  height: 100%;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.wallpaper .generalcont .wallpaperbox .wallpicture {
+  width: 60%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.wallpaper .generalcont .wallpaperbox .wallpicture .startpic {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.wallpaper .generalcont .wallpaperbox .wallpicture .startpic .firstpicone {
+  width: 50%;
+  height: 60%;
+  position: absolute;
+  z-index: 6;
+}
+
+.wallpaper .generalcont .wallpaperbox .wallpicture .startpic .firstpicone img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.wallpaper .generalcont .wallpaperbox .wallpicture .startpic .firstpictwo {
+  width: 50%;
+  height: 60%;
+  position: absolute;
+  z-index: 5;
+}
+
+.wallpaper .generalcont .wallpaperbox .wallpicture .startpic .firstpictwo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.wallpaper .generalcont .wallpaperbox .wallpicture .startpic .firstpicthree {
+  width: 50%;
+  height: 60%;
+  position: absolute;
+  z-index: 4;
+}
+
+.wallpaper .generalcont .wallpaperbox .wallpicture .startpic .firstpicthree img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.wallpaper .generalcont .wallpaperbox .wallpicture .startpic .firstpicfour {
+  width: 50%;
+  height: 60%;
+  position: absolute;
+  z-index: 3;
+}
+
+.wallpaper .generalcont .wallpaperbox .wallpicture .startpic .firstpicfour img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.wallpaper .generalcont .wallpaperbox .wallpicture .startpic .firstpicfive {
+  width: 50%;
+  height: 60%;
+  position: absolute;
+  z-index: 2;
+}
+
+.wallpaper .generalcont .wallpaperbox .wallpicture .startpic .firstpicfive img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.wallpaper .generalcont .wallpaperbox .wallpicture .startpic .firstpicsix {
+  width: 50%;
+  height: 60%;
+  position: absolute;
+  z-index: 1;
+}
+
+.wallpaper .generalcont .wallpaperbox .wallpicture .startpic .firstpicsix img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.wallpaper .generalcont .wallpaperbox .walladvert {
+  width: 20%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.wallpaper .generalcont .wallpaperbox .walladvert .walladvertone {
+  width: 100%;
+  height: 50%;
+  background-color: black;
+  border: none;
+  border-radius: 10px;
+}
+
+.wallpaper .generalcont .wallpaperbox .walladvert .walladvertone .walladvertpic {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
 }
 /*# sourceMappingURL=main.css.map */

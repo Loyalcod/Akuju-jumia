@@ -20,7 +20,7 @@
             </div>
             <div class="sell__content">
                 <div class="sellinjumia">
-                    <div class="sellbox" onmousemove="underline()" onmouseout="underLineOut()">
+                    <div class="sellbox" onmouseover="underline()" onmouseout="underLineOut()">
                         <span class="iconify" data-icon="el:star-alt" data-inline="false"></span>
                         <a href="#" class="onsell">Sell on Jumia</a>
                     </div>
@@ -29,12 +29,167 @@
                     <div class="firstlogo">
                         <img src="/image/jumia-logo.png" width="80px" height="20px">
                     </div>
+                    <!-- STARTING FROM HERE IS THE LINKS FOR JUMIA -->
+                    <div class="paylogo" onmouseover = "colorPay()" onmouseout="colorOut()">
+                        <img src="/image/jumia-pay.png" width="15px" height="15px">
+                        <p class="underlinepayOne">Pay</p>
+                    </div>
+                    <div class="paylogoone" onmouseover = "colorPay1()" onmouseout="colorOut1()">
+                        <img src="/image/jumia-food.png" width="15px" height="15px">
+                        <p class="underlinepayOne1">Food</p>
+                    </div>
+                    <div class="paylogotwo" onmouseover = "colorPay2()" onmouseout="colorOut2()">
+                        <img src="/image/jumia-pay.png" width="15px" height="15px">
+                        <p class="underlinepayOne2">Party</p>
+                    </div>
+                    <div class="paylogothree" onmouseover = "colorPay3()" onmouseout="colorOut3()">
+                        <img src="/image/jumia-pay.png" width="15px" height="15px">
+                        <p class="underlinepayOne3">Now</p>
+                    </div>
+                   
 
     
                 </div>
             </div>
         </div>
     </section>
+
+    <div class="logotop" >
+        <img src="/image/jumia-logo.png" width="115px" height="30px">
+    </div>
+
+    <nav class="nav">
+        <div class="nav__box">
+            <!-- <div class="nav___boxone">sads</div> -->
+            <div class="nav__boxone">
+                <span class="iconify" data-icon="icon-park-outline:align-text-left" data-inline="false"></span>
+                <img src="/image/jumia-logo.png" width="115px" height="30px" class="jumialog">
+                
+            </div>
+            <div class="nav__boxtwo">
+                <div class="nav__searchbox">
+                    <span class="iconify" data-icon="ei:search" data-inline="false"></span>
+                    <input type="search" class="mainsearch">
+                </div>
+                <button class="searchBtn">Search</button>
+            </div>
+            <div class="nav__boxthree">
+                <div class="threebox" onclick="openLogin()" style="cursor: pointer;">
+                    <span class="iconify icontwo" data-icon="et:profile-male" data-inline="false"></span>
+                    <p class="loginlog">Login</p>
+                    <span class="iconify iconone" data-icon="gridicons:dropdown" data-inline="false"></span>
+                    <div class="absotwoon"  style="display: none;">
+                        <div class="logone">
+                            <button class="logbtn">Login</button>
+                            <p class="dor">OR</p>
+                        </div>
+                        <div class="absooneone">
+                            <a href="#" class="createaccount">CREATE ACCOUNT</a>
+                        </div>
+                        <div class="absoonetwo">
+                            <div class="accountone">
+                                <span class="iconify icontwo" data-icon="et:profile-male" data-inline="false"></span>
+                                <a href=""  class="foracct">ACCOUNT</a>
+                            </div>
+                            <div class="orders">
+                                <span class="iconify" data-icon="eva:home-fill" data-inline="false"></span>
+                                <a href="" class="fororders">ORDERS</a>
+                            </div>
+                            <div class="saveditems">
+                                <span class="iconify" data-icon="clarity:heart-line" data-inline="false"></span>
+                                <a href="" class="forsave">SAVED ITEMS</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="threeboxone" onclick="openHelp()" style="cursor: pointer;">
+                    <span class="iconify icontwo" data-icon="ic:outline-help-outline" data-inline="false"></span>
+                    <p class="loginlog">Help</p>
+                    <span class="iconify iconone" data-icon="gridicons:dropdown" data-inline="false"></span>
+                    <div class="absoone" style="display: none; ">
+                        <div class="logone">
+                            <button class="logbtn">Login</button>
+                            <p class="dor">OR</p>
+                        </div>
+                        <div class="absooneone">
+                            <a href="#" class="createaccount">CREATE ACCOUNT</a>
+                        </div>
+                        <div class="absoonetwo">
+                            <div class="accountone">
+                                <span class="iconify icontwo" data-icon="et:profile-male" data-inline="false"></span>
+                                <a href=""  class="foracct">ACCOUNT</a>
+                            </div>
+                            <div class="orders">
+                                <span class="iconify" data-icon="eva:home-fill" data-inline="false"></span>
+                                <a href="" class="fororders">ORDERS</a>
+                            </div>
+                            <div class="saveditems">
+                                <span class="iconify" data-icon="clarity:heart-line" data-inline="false"></span>
+                                <a href="" class="forsave">SAVED ITEMS</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="threeboxtwo" style="cursor: pointer;">
+                    <span class="iconify icontwo" data-icon="ant-design:shopping-cart-outlined" data-inline="false"></span>
+                    <p class="loginlog">Login</p>
+                    
+                </div>
+            </div>
+        </div>
+
+    </nav>
+    <!-- htis is the end of the search and login section -->
+
+    <!-- this is the login section of the mobile -->
+    
+    <!-- this is the end of the login section of the mobile -->
+
+    <!-- wallpaper section -->
+    <section class="wallpaper">
+        <div class="generalcont">
+            <div class="wallpaperbox">
+                <div class="walllink"></div>
+                <div class="wallpicture">
+                    <!-- this is the arrow for direction -->
+                    <!-- <div class="arrowbox" style="cursor: pointer;">
+                        <span class="iconify" data-icon="mdi-light:chevron-left" data-inline="false"></span>
+                    </div>
+                    <div class="arrowboxone" style="cursor: pointer;">
+                        <span class="iconify" data-icon="mdi-light:chevron-right" data-inline="false"></span>
+                    </div> -->
+                    <!-- this is the end of the arrow for direction -->
+                    <div class="startpic">
+                        <div class="firstpicone fade">
+                            <img src="/image/nsf_generic_712x384.gif"style="width: 100%">
+                        </div>
+                        <div class="firstpictwo fade">
+                            <img src="/image/holiday-mode_712x384.jpg" alt="checkme">
+                        </div>
+                        <div class="firstpicthree fade">
+                            <img src="/image/fs_712x384.jpg" alt="okayme">
+                        </div>
+                        <div class="firstpicfour fade">
+                            <img src="/image/5EC2E0AA-C0FB-4C7B-9A58-5FACF5AFE369.gif" alt="okayme">
+                        </div>
+                        <div class="firstpicfive fade">
+                            <img src="/image/beat-the-rain_712x384.jpg" alt="okayme">
+                        </div>
+                        <div class="firstpicsix fade">
+                            <img src="/image/eid-essentials_712x384.gif" alt="okayme">
+                        </div>
+                    </div>
+                </div>
+                <div class="walladvert">
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of wallpaper section -->
+    
     
 
 
@@ -45,6 +200,8 @@
 
 
 
+    <script src="/js/jquery.js.js"></script>
+    <script src="/js/jq.js"></script>
     <script src="/js/script.js"></script>
 </body>
 </html>

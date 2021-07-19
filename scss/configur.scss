@@ -8,6 +8,8 @@ $primary-color: #f9fafb;
 $secondary-color: #f68b1e;
 $accent-color: #ffff;
 $needed-color: #000;
+$hover-color: #da730c;
+$hover-colorone: #c7c7c7;
 
 @mixin marginZero {
     margin: 0px;
@@ -28,8 +30,8 @@ $needed-color: #000;
 
 
 
-@mixin mobile__1440{
-    @media(max-width: 1440px){
+@mixin mobile__6_4{
+    @media(max-width: 6.4in){
         @content;
     }
 }
