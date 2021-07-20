@@ -5,7 +5,7 @@ $(document).ready(function(){
 
     setInterval(function(){
         if(slider == 0){
-            $(".firstpicone").animate({opacity:'0.1', zIndex: '1'},500)
+            $(".firstpicone").animate({opacity:'0.1', zIndex: '1'},1000)
             $(".firstpictwo").animate({zIndex: '6'})
             $(".firstpicthree").animate({zIndex: '5'})
             $(".firstpicfour").animate({zIndex: '4'})
@@ -14,7 +14,7 @@ $(document).ready(function(){
             $(".firstpicone").animate({opacity:'1', zIndex: '1'})
             slider++;
         }else if(slider == 1){
-            $(".firstpictow").animate({opacity:'0.1', zIndex: '1'},500)
+            $(".firstpictow").animate({opacity:'0.1', zIndex: '1'},1000)
             $(".firstpicthree").animate({zIndex: '6'})
             $(".firstpicfour").animate({zIndex: '5'})
             $(".firstpicfive").animate({zIndex: '4'})
@@ -23,7 +23,7 @@ $(document).ready(function(){
             $(".firstpictwo").animate({opacity:'1', zIndex: '1'})
             slider++;            
         }else if(slider == 2){
-            $(".firstpicthree").animate({opacity:'0.1', zIndex: '1'},500)
+            $(".firstpicthree").animate({opacity:'0.1', zIndex: '1'},1000)
             $(".firstpicfour").animate({zIndex: '6'})
             $(".firstpicfive").animate({zIndex: '5'})
             $(".firstpicsix").animate({zIndex: '4'})
@@ -32,7 +32,7 @@ $(document).ready(function(){
             $(".firstpicthree").animate({opacity:'1', zIndex: '1'})
             slider++;            
         }else if(slider == 3){
-            $(".firstpicfour").animate({opacity:'0.1', zIndex: '1'},500)
+            $(".firstpicfour").animate({opacity:'0.1', zIndex: '1'},1000)
             $(".firstpicfive").animate({zIndex: '6'})
             $(".firstpicsix").animate({zIndex: '5'})
             $(".firstpicone").animate({zIndex: '4'})
@@ -41,7 +41,7 @@ $(document).ready(function(){
             $(".firstpicfour").animate({opacity:'1', zIndex: '1'})
             slider++;            
         }else if(slider == 4){
-            $(".firstpicfive").animate({opacity:'0.1', zIndex: '1'},500)
+            $(".firstpicfive").animate({opacity:'0.1', zIndex: '1'},1000)
             $(".firstpicsix").animate({zIndex: '6'})
             $(".firstpicone").animate({zIndex: '5'})
             $(".firstpictwo").animate({zIndex: '4'})
@@ -50,7 +50,7 @@ $(document).ready(function(){
             $(".firstpicfive").animate({opacity:'1', zIndex: '1'})
             slider++;            
         }else if(slider == 5){
-            $(".firstpicsix").animate({opacity:'0.1', zIndex: '1'},500)
+            $(".firstpicsix").animate({opacity:'0.1', zIndex: '1'},1000)
             $(".firstpicone").animate({zIndex: '6'})
             $(".firstpictwo").animate({zIndex: '5'})
             $(".firstpicthree").animate({zIndex: '4'})

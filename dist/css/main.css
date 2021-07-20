@@ -1032,6 +1032,114 @@
   background-color: white;
   border: none;
   border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+}
+
+.wallpaper .generalcont .wallpaperbox .walllink .walllinkboxhidden {
+  width: 700px;
+  height: 380px;
+  position: absolute;
+  background-color: white;
+  z-index: 13;
+  margin-left: 215px;
+  -webkit-box-shadow: 0px 0px 4px 0.5px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 4px 0.5px rgba(0, 0, 0, 0.25);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: none;
+}
+
+.wallpaper .generalcont .wallpaperbox .walllink .walllinkboxhidden.active {
+  display: block;
+}
+
+.wallpaper .generalcont .wallpaperbox .walllink .walllinkboxhidden .hiddenboxin {
+  width: 25%;
+  height: 80%;
+  margin-top: 10px;
+  margin-left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 3px;
+}
+
+.wallpaper .generalcont .wallpaperbox .walllink .walllinkboxhidden .hiddenboxin h1 {
+  font-size: 14px;
+  font-family: robotoregular;
+  cursor: pointer;
+}
+
+.wallpaper .generalcont .wallpaperbox .walllink .walllinkboxhidden .hiddenboxin h1:hover {
+  color: #f68b1e;
+}
+
+.wallpaper .generalcont .wallpaperbox .walllink .walllinkboxhidden .hiddenboxin div {
+  width: 150px;
+  height: 2px;
+  background-color: #e0e0e0;
+}
+
+.wallpaper .generalcont .wallpaperbox .walllink .walllinkboxhidden .hiddenboxin .linkforhidenone {
+  color: #c0bfbf;
+  text-decoration: none;
+  font-family: robotoregular;
+  font-size: 12px;
+}
+
+.wallpaper .generalcont .wallpaperbox .walllink .walllinkboxhidden .hiddenboxin .linkforhidenone:hover {
+  color: black;
+}
+
+.wallpaper .generalcont .wallpaperbox .walllink .walllinkonebox {
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.wallpaper .generalcont .wallpaperbox .walllink .walllinkonebox:hover {
+  background-color: #dadadb;
+  color: #f68b1e;
+}
+
+.wallpaper .generalcont .wallpaperbox .walllink .walllinkonebox .iconify {
+  width: 30px;
+  height: 30px;
+}
+
+.wallpaper .generalcont .wallpaperbox .walllink .walllinkonebox .walllinkclickone {
+  font-family: robotolight;
+  font-size: 14px;
 }
 
 .wallpaper .generalcont .wallpaperbox .wallpicture {

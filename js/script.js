@@ -180,6 +180,48 @@ for(x in globalMaterial){
 }
 // this the end of jumia global
 
+// showing the walllinkboxhidden
+let wallLinkBoxHidden = document.querySelector('.walllinkboxhidden');
+// console.log(wallLinkBoxHidden);
+function showWalllinkbox(){
+    if(x = 0){
+        wallLinkBoxHidden.className = 'walllinkboxhidden';
+        x = 1;
+    } else{
+        wallLinkBoxHidden.className += ' active';
+        x = 0
+    }
+}
+
+function hidWallLinkBox(){
+    if(x = 0){
+        wallLinkBoxHidden.className = 'walllinkboxhidden';
+        x = 1;
+    } else{
+        wallLinkBoxHidden.className = 'walllinkboxhidden';
+        x = 0;
+    }
+}
+
+let wallLinkAll =[
+    {data_icon:"uit:apple-alt", name:"Supermarket", firsthead:"FOOD CUPBOARD", sub:"Grains & Rice", subone:"Pasta", subtwo:"Noodles", subthree:"Breakfast Foods", subfour:"Herbs, Spices & Seasoning", subfive:"Flours & Meals", subsix:"Malt Drinks", subseven:"Coffee", subeight:"Water", subnine:"Cooking Oil", subten:"Juices", subeleven:"Soft Drinks", subtwelve:"Canned & Packaged Foods", subthirteen:"Candy & Chocolate", subfourteen:"Syrups, Sugars & Sweeteners"},
+    {data_icon:"ri:mental-health-line", name:"Health & Beauty", firsthead:"FOOD CUPBOARD", sub:"Grains & Rice", subone:"Pasta", subtwo:"Noodles", subthree:"Breakfast Foods", subfour:"Herbs, Spices & Seasoning", subfive:"Flours & Meals", subsix:"Malt Drinks", subseven:"Coffee", subeight:"Water", subnine:"Cooking Oil", subten:"Juices", subeleven:"Soft Drinks", subtwelve:"Canned & Packaged Foods", subthirteen:"Candy & Chocolate", subfourteen:"Syrups, Sugars & Sweeteners"},
+    {data_icon:"icomoon-free:office", name:"Home & Office", firsthead:"FOOD CUPBOARD", sub:"Grains & Rice", subone:"Pasta", subtwo:"Noodles", subthree:"Breakfast Foods", subfour:"Herbs, Spices & Seasoning", subfive:"Flours & Meals", subsix:"Malt Drinks", subseven:"Coffee", subeight:"Water", subnine:"Cooking Oil", subten:"Juices", subeleven:"Soft Drinks", subtwelve:"Canned & Packaged Foods", subthirteen:"Candy & Chocolate", subfourteen:"Syrups, Sugars & Sweeteners"},
+    {data_icon:"et:phone", name:"Phones & Tablets", firsthead:"FOOD CUPBOARD", sub:"Grains & Rice", subone:"Pasta", subtwo:"Noodles", subthree:"Breakfast Foods", subfour:"Herbs, Spices & Seasoning", subfive:"Flours & Meals", subsix:"Malt Drinks", subseven:"Coffee", subeight:"Water", subnine:"Cooking Oil", subten:"Juices", subeleven:"Soft Drinks", subtwelve:"Canned & Packaged Foods", subthirteen:"Candy & Chocolate", subfourteen:"Syrups, Sugars & Sweeteners"},
+    {data_icon:"uit:apple-alt", name:"Computing", firsthead:"FOOD CUPBOARD", sub:"Grains & Rice", subone:"Pasta", subtwo:"Noodles", subthree:"Breakfast Foods", subfour:"Herbs, Spices & Seasoning", subfive:"Flours & Meals", subsix:"Malt Drinks", subseven:"Coffee", subeight:"Water", subnine:"Cooking Oil", subten:"Juices", subeleven:"Soft Drinks", subtwelve:"Canned & Packaged Foods", subthirteen:"Candy & Chocolate", subfourteen:"Syrups, Sugars & Sweeteners"},
+    {data_icon:"uit:apple-alt", name:"Electronics", firsthead:"FOOD CUPBOARD", sub:"Grains & Rice", subone:"Pasta", subtwo:"Noodles", subthree:"Breakfast Foods", subfour:"Herbs, Spices & Seasoning", subfive:"Flours & Meals", subsix:"Malt Drinks", subseven:"Coffee", subeight:"Water", subnine:"Cooking Oil", subten:"Juices", subeleven:"Soft Drinks", subtwelve:"Canned & Packaged Foods", subthirteen:"Candy & Chocolate", subfourteen:"Syrups, Sugars & Sweeteners"},
+    {data_icon:"uit:apple-alt", name:"Fashion", firsthead:"FOOD CUPBOARD", sub:"Grains & Rice", subone:"Pasta", subtwo:"Noodles", subthree:"Breakfast Foods", subfour:"Herbs, Spices & Seasoning", subfive:"Flours & Meals", subsix:"Malt Drinks", subseven:"Coffee", subeight:"Water", subnine:"Cooking Oil", subten:"Juices", subeleven:"Soft Drinks", subtwelve:"Canned & Packaged Foods", subthirteen:"Candy & Chocolate", subfourteen:"Syrups, Sugars & Sweeteners"},
+    {data_icon:"uit:apple-alt", name:"Baby Products", firsthead:"FOOD CUPBOARD", sub:"Grains & Rice", subone:"Pasta", subtwo:"Noodles", subthree:"Breakfast Foods", subfour:"Herbs, Spices & Seasoning", subfive:"Flours & Meals", subsix:"Malt Drinks", subseven:"Coffee", subeight:"Water", subnine:"Cooking Oil", subten:"Juices", subeleven:"Soft Drinks", subtwelve:"Canned & Packaged Foods", subthirteen:"Candy & Chocolate", subfourteen:"Syrups, Sugars & Sweeteners"},
+    {data_icon:"uit:apple-alt", name:"Gaming", firsthead:"FOOD CUPBOARD", sub:"Grains & Rice", subone:"Pasta", subtwo:"Noodles", subthree:"Breakfast Foods", subfour:"Herbs, Spices & Seasoning", subfive:"Flours & Meals", subsix:"Malt Drinks", subseven:"Coffee", subeight:"Water", subnine:"Cooking Oil", subten:"Juices", subeleven:"Soft Drinks", subtwelve:"Canned & Packaged Foods", subthirteen:"Candy & Chocolate", subfourteen:"Syrups, Sugars & Sweeteners"},
+    {data_icon:"uit:apple-alt", name:"Sporting Goods", firsthead:"FOOD CUPBOARD", sub:"Grains & Rice", subone:"Pasta", subtwo:"Noodles", subthree:"Breakfast Foods", subfour:"Herbs, Spices & Seasoning", subfive:"Flours & Meals", subsix:"Malt Drinks", subseven:"Coffee", subeight:"Water", subnine:"Cooking Oil", subten:"Juices", subeleven:"Soft Drinks", subtwelve:"Canned & Packaged Foods", subthirteen:"Candy & Chocolate", subfourteen:"Syrups, Sugars & Sweeteners"},
+    {data_icon:"uit:apple-alt", name:"Automobile", firsthead:"FOOD CUPBOARD", sub:"Grains & Rice", subone:"Pasta", subtwo:"Noodles", subthree:"Breakfast Foods", subfour:"Herbs, Spices & Seasoning", subfive:"Flours & Meals", subsix:"Malt Drinks", subseven:"Coffee", subeight:"Water", subnine:"Cooking Oil", subten:"Juices", subeleven:"Soft Drinks", subtwelve:"Canned & Packaged Foods", subthirteen:"Candy & Chocolate", subfourteen:"Syrups, Sugars & Sweeteners"},
+    {data_icon:"uit:apple-alt", name:"Other categories", firsthead:"FOOD CUPBOARD", sub:"Grains & Rice", subone:"Pasta", subtwo:"Noodles", subthree:"Breakfast Foods", subfour:"Herbs, Spices & Seasoning", subfive:"Flours & Meals", subsix:"Malt Drinks", subseven:"Coffee", subeight:"Water", subnine:"Cooking Oil", subten:"Juices", subeleven:"Soft Drinks", subtwelve:"Canned & Packaged Foods", subthirteen:"Candy & Chocolate", subfourteen:"Syrups, Sugars & Sweeteners"},
+    
+]
+
+
+// end of the function
+
 
 
 
