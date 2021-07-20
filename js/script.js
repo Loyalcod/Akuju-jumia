@@ -208,18 +208,52 @@ let wallLinkAll =[
     {data_icon:"ri:mental-health-line", name:"Health & Beauty", firsthead:"FOOD CUPBOARD", sub:"Grains & Rice", subone:"Pasta", subtwo:"Noodles", subthree:"Breakfast Foods", subfour:"Herbs, Spices & Seasoning", subfive:"Flours & Meals", subsix:"Malt Drinks", subseven:"Coffee", subeight:"Water", subnine:"Cooking Oil", subten:"Juices", subeleven:"Soft Drinks", subtwelve:"Canned & Packaged Foods", subthirteen:"Candy & Chocolate", subfourteen:"Syrups, Sugars & Sweeteners"},
     {data_icon:"icomoon-free:office", name:"Home & Office", firsthead:"FOOD CUPBOARD", sub:"Grains & Rice", subone:"Pasta", subtwo:"Noodles", subthree:"Breakfast Foods", subfour:"Herbs, Spices & Seasoning", subfive:"Flours & Meals", subsix:"Malt Drinks", subseven:"Coffee", subeight:"Water", subnine:"Cooking Oil", subten:"Juices", subeleven:"Soft Drinks", subtwelve:"Canned & Packaged Foods", subthirteen:"Candy & Chocolate", subfourteen:"Syrups, Sugars & Sweeteners"},
     {data_icon:"et:phone", name:"Phones & Tablets", firsthead:"FOOD CUPBOARD", sub:"Grains & Rice", subone:"Pasta", subtwo:"Noodles", subthree:"Breakfast Foods", subfour:"Herbs, Spices & Seasoning", subfive:"Flours & Meals", subsix:"Malt Drinks", subseven:"Coffee", subeight:"Water", subnine:"Cooking Oil", subten:"Juices", subeleven:"Soft Drinks", subtwelve:"Canned & Packaged Foods", subthirteen:"Candy & Chocolate", subfourteen:"Syrups, Sugars & Sweeteners"},
-    {data_icon:"uit:apple-alt", name:"Computing", firsthead:"FOOD CUPBOARD", sub:"Grains & Rice", subone:"Pasta", subtwo:"Noodles", subthree:"Breakfast Foods", subfour:"Herbs, Spices & Seasoning", subfive:"Flours & Meals", subsix:"Malt Drinks", subseven:"Coffee", subeight:"Water", subnine:"Cooking Oil", subten:"Juices", subeleven:"Soft Drinks", subtwelve:"Canned & Packaged Foods", subthirteen:"Candy & Chocolate", subfourteen:"Syrups, Sugars & Sweeteners"},
-    {data_icon:"uit:apple-alt", name:"Electronics", firsthead:"FOOD CUPBOARD", sub:"Grains & Rice", subone:"Pasta", subtwo:"Noodles", subthree:"Breakfast Foods", subfour:"Herbs, Spices & Seasoning", subfive:"Flours & Meals", subsix:"Malt Drinks", subseven:"Coffee", subeight:"Water", subnine:"Cooking Oil", subten:"Juices", subeleven:"Soft Drinks", subtwelve:"Canned & Packaged Foods", subthirteen:"Candy & Chocolate", subfourteen:"Syrups, Sugars & Sweeteners"},
-    {data_icon:"uit:apple-alt", name:"Fashion", firsthead:"FOOD CUPBOARD", sub:"Grains & Rice", subone:"Pasta", subtwo:"Noodles", subthree:"Breakfast Foods", subfour:"Herbs, Spices & Seasoning", subfive:"Flours & Meals", subsix:"Malt Drinks", subseven:"Coffee", subeight:"Water", subnine:"Cooking Oil", subten:"Juices", subeleven:"Soft Drinks", subtwelve:"Canned & Packaged Foods", subthirteen:"Candy & Chocolate", subfourteen:"Syrups, Sugars & Sweeteners"},
-    {data_icon:"uit:apple-alt", name:"Baby Products", firsthead:"FOOD CUPBOARD", sub:"Grains & Rice", subone:"Pasta", subtwo:"Noodles", subthree:"Breakfast Foods", subfour:"Herbs, Spices & Seasoning", subfive:"Flours & Meals", subsix:"Malt Drinks", subseven:"Coffee", subeight:"Water", subnine:"Cooking Oil", subten:"Juices", subeleven:"Soft Drinks", subtwelve:"Canned & Packaged Foods", subthirteen:"Candy & Chocolate", subfourteen:"Syrups, Sugars & Sweeteners"},
-    {data_icon:"uit:apple-alt", name:"Gaming", firsthead:"FOOD CUPBOARD", sub:"Grains & Rice", subone:"Pasta", subtwo:"Noodles", subthree:"Breakfast Foods", subfour:"Herbs, Spices & Seasoning", subfive:"Flours & Meals", subsix:"Malt Drinks", subseven:"Coffee", subeight:"Water", subnine:"Cooking Oil", subten:"Juices", subeleven:"Soft Drinks", subtwelve:"Canned & Packaged Foods", subthirteen:"Candy & Chocolate", subfourteen:"Syrups, Sugars & Sweeteners"},
-    {data_icon:"uit:apple-alt", name:"Sporting Goods", firsthead:"FOOD CUPBOARD", sub:"Grains & Rice", subone:"Pasta", subtwo:"Noodles", subthree:"Breakfast Foods", subfour:"Herbs, Spices & Seasoning", subfive:"Flours & Meals", subsix:"Malt Drinks", subseven:"Coffee", subeight:"Water", subnine:"Cooking Oil", subten:"Juices", subeleven:"Soft Drinks", subtwelve:"Canned & Packaged Foods", subthirteen:"Candy & Chocolate", subfourteen:"Syrups, Sugars & Sweeteners"},
-    {data_icon:"uit:apple-alt", name:"Automobile", firsthead:"FOOD CUPBOARD", sub:"Grains & Rice", subone:"Pasta", subtwo:"Noodles", subthree:"Breakfast Foods", subfour:"Herbs, Spices & Seasoning", subfive:"Flours & Meals", subsix:"Malt Drinks", subseven:"Coffee", subeight:"Water", subnine:"Cooking Oil", subten:"Juices", subeleven:"Soft Drinks", subtwelve:"Canned & Packaged Foods", subthirteen:"Candy & Chocolate", subfourteen:"Syrups, Sugars & Sweeteners"},
-    {data_icon:"uit:apple-alt", name:"Other categories", firsthead:"FOOD CUPBOARD", sub:"Grains & Rice", subone:"Pasta", subtwo:"Noodles", subthree:"Breakfast Foods", subfour:"Herbs, Spices & Seasoning", subfive:"Flours & Meals", subsix:"Malt Drinks", subseven:"Coffee", subeight:"Water", subnine:"Cooking Oil", subten:"Juices", subeleven:"Soft Drinks", subtwelve:"Canned & Packaged Foods", subthirteen:"Candy & Chocolate", subfourteen:"Syrups, Sugars & Sweeteners"},
+    {data_icon:"clarity:computer-outline-badged", name:"Computing", firsthead:"FOOD CUPBOARD", sub:"Grains & Rice", subone:"Pasta", subtwo:"Noodles", subthree:"Breakfast Foods", subfour:"Herbs, Spices & Seasoning", subfive:"Flours & Meals", subsix:"Malt Drinks", subseven:"Coffee", subeight:"Water", subnine:"Cooking Oil", subten:"Juices", subeleven:"Soft Drinks", subtwelve:"Canned & Packaged Foods", subthirteen:"Candy & Chocolate", subfourteen:"Syrups, Sugars & Sweeteners"},
+    {data_icon:"iconoir:electronics-transister", name:"Electronics", firsthead:"FOOD CUPBOARD", sub:"Grains & Rice", subone:"Pasta", subtwo:"Noodles", subthree:"Breakfast Foods", subfour:"Herbs, Spices & Seasoning", subfive:"Flours & Meals", subsix:"Malt Drinks", subseven:"Coffee", subeight:"Water", subnine:"Cooking Oil", subten:"Juices", subeleven:"Soft Drinks", subtwelve:"Canned & Packaged Foods", subthirteen:"Candy & Chocolate", subfourteen:"Syrups, Sugars & Sweeteners"},
+    {data_icon:"mdi-light:diamond", name:"Fashion", firsthead:"FOOD CUPBOARD", sub:"Grains & Rice", subone:"Pasta", subtwo:"Noodles", subthree:"Breakfast Foods", subfour:"Herbs, Spices & Seasoning", subfive:"Flours & Meals", subsix:"Malt Drinks", subseven:"Coffee", subeight:"Water", subnine:"Cooking Oil", subten:"Juices", subeleven:"Soft Drinks", subtwelve:"Canned & Packaged Foods", subthirteen:"Candy & Chocolate", subfourteen:"Syrups, Sugars & Sweeteners"},
+    {data_icon:"maki:defibrillator", name:"Baby Products", firsthead:"FOOD CUPBOARD", sub:"Grains & Rice", subone:"Pasta", subtwo:"Noodles", subthree:"Breakfast Foods", subfour:"Herbs, Spices & Seasoning", subfive:"Flours & Meals", subsix:"Malt Drinks", subseven:"Coffee", subeight:"Water", subnine:"Cooking Oil", subten:"Juices", subeleven:"Soft Drinks", subtwelve:"Canned & Packaged Foods", subthirteen:"Candy & Chocolate", subfourteen:"Syrups, Sugars & Sweeteners"},
+    {data_icon:"ph:game-controller-thin", name:"Gaming", firsthead:"FOOD CUPBOARD", sub:"Grains & Rice", subone:"Pasta", subtwo:"Noodles", subthree:"Breakfast Foods", subfour:"Herbs, Spices & Seasoning", subfive:"Flours & Meals", subsix:"Malt Drinks", subseven:"Coffee", subeight:"Water", subnine:"Cooking Oil", subten:"Juices", subeleven:"Soft Drinks", subtwelve:"Canned & Packaged Foods", subthirteen:"Candy & Chocolate", subfourteen:"Syrups, Sugars & Sweeteners"},
+    {data_icon:"icon-park-outline:sport", name:"Sporting Goods", firsthead:"FOOD CUPBOARD", sub:"Grains & Rice", subone:"Pasta", subtwo:"Noodles", subthree:"Breakfast Foods", subfour:"Herbs, Spices & Seasoning", subfive:"Flours & Meals", subsix:"Malt Drinks", subseven:"Coffee", subeight:"Water", subnine:"Cooking Oil", subten:"Juices", subeleven:"Soft Drinks", subtwelve:"Canned & Packaged Foods", subthirteen:"Candy & Chocolate", subfourteen:"Syrups, Sugars & Sweeteners"},
+    {data_icon:"clarity:update-line", name:"Automobile", firsthead:"FOOD CUPBOARD", sub:"Grains & Rice", subone:"Pasta", subtwo:"Noodles", subthree:"Breakfast Foods", subfour:"Herbs, Spices & Seasoning", subfive:"Flours & Meals", subsix:"Malt Drinks", subseven:"Coffee", subeight:"Water", subnine:"Cooking Oil", subten:"Juices", subeleven:"Soft Drinks", subtwelve:"Canned & Packaged Foods", subthirteen:"Candy & Chocolate", subfourteen:"Syrups, Sugars & Sweeteners"},
+    {data_icon:"mdi-light:arrange-bring-forward", name:"Other categories", firsthead:"FOOD CUPBOARD", sub:"Grains & Rice", subone:"Pasta", subtwo:"Noodles", subthree:"Breakfast Foods", subfour:"Herbs, Spices & Seasoning", subfive:"Flours & Meals", subsix:"Malt Drinks", subseven:"Coffee", subeight:"Water", subnine:"Cooking Oil", subten:"Juices", subeleven:"Soft Drinks", subtwelve:"Canned & Packaged Foods", subthirteen:"Candy & Chocolate", subfourteen:"Syrups, Sugars & Sweeteners"},
     
 ]
 
+let JumiaMainLink = document.querySelector('.walllink');
 
+for(x in wallLinkAll){
+
+    JumiaMainLink.innerHTML += `
+    <div class="walllinkboxhidden" onmouseover="showWalllinkbox()" onmouseleave="hidWallLinkBox()">
+                        <div class="hiddenboxin" >
+                            <h1>${wallLinkAll[x].firsthead}</h1>
+                            <div class="ashline"></div>
+                            <a href="" class="linkforhidenone">${wallLinkAll[x].sub}</a>
+                            <a href="" class="linkforhidenone">${wallLinkAll[x].subone}</a>
+                            <a href="" class="linkforhidenone">${wallLinkAll[x].subtwo}</a>
+                            <a href="" class="linkforhidenone">${wallLinkAll[x].subthree}</a>
+                            <a href="" class="linkforhidenone">${wallLinkAll[x].subfour}</a>
+                            <a href="" class="linkforhidenone">${wallLinkAll[x].subfive}</a>
+                            <a href="" class="linkforhidenone">${wallLinkAll[x].subsix}</a>
+                            <a href="" class="linkforhidenone">${wallLinkAll[x].subseven}</a>
+                            <a href="" class="linkforhidenone">${wallLinkAll[x].subeight}</a>
+                            <a href="" class="linkforhidenone">${wallLinkAll[x].subnine}</a>
+                            <a href="" class="linkforhidenone">${wallLinkAll[x].subten}</a>
+                            <a href="" class="linkforhidenone">${wallLinkAll[x].subeleven}</a>
+                            <a href="" class="linkforhidenone">${wallLinkAll[x].subtwelve}</a>
+                            <a href="" class="linkforhidenone">${wallLinkAll[x].subthirteen}</a>
+                            <a href="" class="linkforhidenone">${wallLinkAll[x].subfourteen}</a>
+                        </div>
+                    </div>                   
+                    <div class="walllinkonebox" onmouseover="showWalllinkbox()" onmouseleave="hidWallLinkBox()">
+                        <span class="iconify" data-icon="${wallLinkAll[x].data_icon}" data-inline="false"></span>
+                        <p class="walllinkclickone">${wallLinkAll[x].name}</p>                        
+                    </div>
+    
+    
+    
+    `
+};
 // end of the function
 
 
