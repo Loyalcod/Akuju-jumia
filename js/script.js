@@ -161,6 +161,25 @@ for(x in pic){
 
 wallAdvert.innerHTML = wallAdvertString;
 
+// this for the jumia global
+let globalMaterial = [
+    {imglink:"./image/JumiaGlobal-(1).png", name:"Jumia Global"},
+    {imglink:"./image/official-stores.png", name:"Official Stores"},
+    {imglink:"./image/jumia-food.png", name:"Jumia Food"},
+    {imglink:"./image/jumia-pay.png", name:"Borrow Money"}
+]
+
+let jumiaGlob = document.querySelector('.jumiaglob');
+for(x in globalMaterial){
+    jumiaGlob.innerHTML += `
+    <div class="mainglob">
+    <img src="${globalMaterial[x].imglink}" class="globimg">
+    <p class="globp">${globalMaterial[x].name}</p>
+</div>    
+    `
+}
+// this the end of jumia global
+
 
 
 

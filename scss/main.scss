@@ -728,6 +728,7 @@
         height: 1970px;
         background-color: transparent;
         @include flexMatch(column);
+        gap: 20px;
 
         .wallpaperbox{
             width: 100%;
@@ -900,7 +901,41 @@
                     }
                 }
             }
+            
+
+            
         }
+        
+        .jumiaglob{
+            width: 100%;
+            height: 100px;
+            background-color: transparent;
+            @include flexCenter(row);
+            gap: 20px;
+
+            .mainglob{
+                width: 25%;
+                height: 50%;
+                background-color: white;
+                cursor: pointer;
+                @include flexMatch(row);
+                align-items: center;
+                gap: 20px;
+                box-shadow: 0px 0px 3px 0.4px rgba(0, 0, 0, 0.25);
+
+                .globimg{
+                    width: 40px;
+                    height: 40px;
+                    margin-left: 10px;
+                }
+
+                .globp{
+                    font-size: 20px;
+                    font-family: robotoregular;
+                }
+            }
+        }
+
     }
 }
 
