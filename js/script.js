@@ -262,11 +262,11 @@ for(x in wallLinkAll){
 // this is for the first section of the picture
 let listOfPickture =[
     {discount:"-16%", picvalue:"/image/1.jpg", nameofphone:"Tecno Camon 17 (CG6)6...", pricename:"$ 75,995", delpart:"$90,000"},
-    {discount:"-16%", picvalue:"/image/1 (1).jpg", nameofphone:"Tecno Camon 17 (CG6)6...", pricename:"$ 75,995", delpart:"$90,000"},
-    {discount:"-16%", picvalue:"/image/1 (2).jpg", nameofphone:"Tecno Camon 17 (CG6)6...", pricename:"$ 75,995", delpart:"$90,000"},
-    {discount:"-16%", picvalue:"/image/1 (3).jpg", nameofphone:"Tecno Camon 17 (CG6)6...", pricename:"$ 75,995", delpart:"$90,000"},
-    {discount:"-16%", picvalue:"/image/1 (4).jpg", nameofphone:"Tecno Camon 17 (CG6)6...", pricename:"$ 75,995", delpart:"$90,000"},
-    {discount:"-16%", picvalue:"/image/1 (5).jpg", nameofphone:"Tecno Camon 17 (CG6)6...", pricename:"$ 75,995", delpart:"$90,000"}
+    {discount:"-27%", picvalue:"/image/1 (1).jpg", nameofphone:"Tecno Camon 17 (CG6)6...", pricename:"$ 75,995", delpart:"$90,000"},
+    {discount:"-36%", picvalue:"/image/1 (2).jpg", nameofphone:"Tecno Camon 17 (CG6)6...", pricename:"$ 75,995", delpart:"$90,000"},
+    {discount:"-65%", picvalue:"/image/1 (3).jpg", nameofphone:"Tecno Camon 17 (CG6)6...", pricename:"$ 75,995", delpart:"$90,000"},
+    {discount:"-35%", picvalue:"/image/1 (4).jpg", nameofphone:"Tecno Camon 17 (CG6)6...", pricename:"$ 75,995", delpart:"$90,000"},
+    {discount:"-39%", picvalue:"/image/1 (5).jpg", nameofphone:"Tecno Camon 17 (CG6)6...", pricename:"$ 75,995", delpart:"$90,000"}
 ]
 
 let mainPictureBox = document.querySelector('.mainpicturebox');
