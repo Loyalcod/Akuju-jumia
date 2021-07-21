@@ -259,4 +259,41 @@ for(x in wallLinkAll){
 
 
 
+// this is for the first section of the picture
+let listOfPickture =[
+    {discount:"-16%", picvalue:"/image/1.jpg", nameofphone:"Tecno Camon 17 (CG6)6...", pricename:"$ 75,995", delpart:"$90,000"},
+    {discount:"-16%", picvalue:"/image/1 (1).jpg", nameofphone:"Tecno Camon 17 (CG6)6...", pricename:"$ 75,995", delpart:"$90,000"},
+    {discount:"-16%", picvalue:"/image/1 (2).jpg", nameofphone:"Tecno Camon 17 (CG6)6...", pricename:"$ 75,995", delpart:"$90,000"},
+    {discount:"-16%", picvalue:"/image/1 (3).jpg", nameofphone:"Tecno Camon 17 (CG6)6...", pricename:"$ 75,995", delpart:"$90,000"},
+    {discount:"-16%", picvalue:"/image/1 (4).jpg", nameofphone:"Tecno Camon 17 (CG6)6...", pricename:"$ 75,995", delpart:"$90,000"},
+    {discount:"-16%", picvalue:"/image/1 (5).jpg", nameofphone:"Tecno Camon 17 (CG6)6...", pricename:"$ 75,995", delpart:"$90,000"}
+]
+
+let mainPictureBox = document.querySelector('.mainpicturebox');
+
+for(x in listOfPickture){
+
+    mainPictureBox.innerHTML += `
+    
+    <div class="mainpictureholder">
+                        <div class="discountvalue">
+                            <p>${listOfPickture[x].discount}</p>
+                        </div>
+                        <div class="mainpicturecon">
+                            <img src="${listOfPickture[x].picvalue}">
+                        </div>
+                        <div class="mainpictureprice">
+                            <p class="nameofphone">${listOfPickture[x].nameofphone}</p>
+                            <p class="actualprice">${listOfPickture[x].pricename}</p>
+                            <p class="delpart"><del>${listOfPickture[x].delpart}</del></p>
+                        </div>
+                    </div> 
+    
+    
+    `
+}
+// this is the end of the first section of the picture
+
+
+
 

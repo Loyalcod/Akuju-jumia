@@ -1100,7 +1100,7 @@
   color: #c0bfbf;
   text-decoration: none;
   font-family: robotoregular;
-  font-size: 12px;
+  font-size: 11px;
 }
 
 .wallpaper .generalcont .wallpaperbox .walllink .walllinkboxhidden .hiddenboxin .linkforhidenone:hover {
@@ -1108,9 +1108,10 @@
 }
 
 .wallpaper .generalcont .wallpaperbox .walllink .walllinkonebox {
-  width: 100%;
+  width: 96%;
   height: 40px;
   background-color: white;
+  margin-left: 4%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1118,6 +1119,9 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 10px;
 }
 
@@ -1127,13 +1131,13 @@
 }
 
 .wallpaper .generalcont .wallpaperbox .walllink .walllinkonebox .iconify {
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
 }
 
 .wallpaper .generalcont .wallpaperbox .walllink .walllinkonebox .walllinkclickone {
   font-family: robotolight;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .wallpaper .generalcont .wallpaperbox .wallpicture {
@@ -1273,7 +1277,7 @@
 
 .wallpaper .generalcont .jumiaglob {
   width: 100%;
-  height: 100px;
+  height: 80px;
   background-color: transparent;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1293,7 +1297,7 @@
 
 .wallpaper .generalcont .jumiaglob .mainglob {
   width: 25%;
-  height: 50%;
+  height: 70%;
   background-color: white;
   cursor: pointer;
   display: -webkit-box;
@@ -1320,5 +1324,142 @@
 .wallpaper .generalcont .jumiaglob .mainglob .globp {
   font-size: 17px;
   font-family: robotoregular;
+}
+
+.wallpaper .generalcont .firstpicturesection {
+  width: 100%;
+  height: 350px;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  border-radius: 2px;
+}
+
+.wallpaper .generalcont .firstpicturesection .picwrite {
+  width: 100%;
+  height: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wallpaper .generalcont .firstpicturesection .picwrite h3 {
+  font-family: robotoregular;
+  font-size: 24px;
+  margin-left: 2%;
+}
+
+.wallpaper .generalcont .firstpicturesection .mainpicturebox {
+  width: 100%;
+  height: 85%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.wallpaper .generalcont .firstpicturesection .mainpicturebox .mainpictureholder {
+  width: 15%;
+  height: 90%;
+  cursor: pointer;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.wallpaper .generalcont .firstpicturesection .mainpicturebox .mainpictureholder:hover {
+  -webkit-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.25);
+}
+
+.wallpaper .generalcont .firstpicturesection .mainpicturebox .mainpictureholder .discountvalue {
+  width: 3%;
+  height: 19px;
+  background-color: salmon;
+  position: absolute;
+  z-index: 12;
+  margin-left: 130px;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wallpaper .generalcont .firstpicturesection .mainpicturebox .mainpictureholder .discountvalue p {
+  color: white;
+  font-family: robotoregular;
+}
+
+.wallpaper .generalcont .firstpicturesection .mainpicturebox .mainpictureholder .mainpicturecon {
+  width: 100%;
+  height: 70%;
+  background-color: seagreen;
+}
+
+.wallpaper .generalcont .firstpicturesection .mainpicturebox .mainpictureholder .mainpicturecon img {
+  width: 100%;
+  height: 100%;
+}
+
+.wallpaper .generalcont .firstpicturesection .mainpicturebox .mainpictureholder .mainpictureprice {
+  width: 96%;
+  height: 30%;
+  margin-left: 4%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 5px;
+}
+
+.wallpaper .generalcont .firstpicturesection .mainpicturebox .mainpictureholder .mainpictureprice .nameofphone {
+  font-family: robotoregular;
+  font-size: 13px;
+}
+
+.wallpaper .generalcont .firstpicturesection .mainpicturebox .mainpictureholder .mainpictureprice .actualprice {
+  font-family: robotobold;
+}
+
+.wallpaper .generalcont .firstpicturesection .mainpicturebox .mainpictureholder .mainpictureprice .delpart {
+  font-family: robotolight;
+  color: #c0bfbf;
 }
 /*# sourceMappingURL=main.css.map */
