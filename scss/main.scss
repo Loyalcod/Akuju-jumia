@@ -1194,7 +1194,105 @@
 
         // this is the second picture just to make some changes
 
-        
+        .secondpicturesection{
+            width: 100%;
+            height: 350px;
+            background-color: white;
+            box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.25);
+            overflow: hidden;
+            border-radius: 10px;
+
+            .secondpicwrite{
+                width: 100%;
+                height: 15%;
+                background-color: red;
+                @include flexMatch(column);
+                justify-content: center;
+
+                h3{
+                    font-family: robotoregular;
+                    font-size: 24px;
+                    margin-left: 2%;
+                    color: white;
+
+                    span{
+                        font-size: 18px;
+                        margin-left: 850px;
+                    }
+                }
+            }
+
+            .mainpicturebox2{
+                width: 100%;
+                height: 85%;
+                // background-color: rosybrown;
+                @include flexCenter(row);
+                align-items: center;
+                gap: 15px;
+
+                .mainpictureholder2{
+                    width: 15%;
+                    height: 90%;
+                    cursor: pointer;
+                    background-color: white;
+                    @include flexMatch(column);
+
+                    &:hover{
+                        box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.25);
+                    }
+
+                    .discountvalue2{
+                        width: 3%;
+                        height: 19px;
+                        background-color: salmon;
+                        position: absolute;
+                        z-index: 12;
+                        margin-left: 130px;
+                        margin-top: 20px;
+                        @include flexCenter(row);
+
+                        p{
+                            color: white;
+                            font-family: robotoregular;
+                        }
+                    }
+
+                    .mainpicturecon2{
+                        width: 100%;
+                        height: 70%;
+                        background-color: seagreen;
+
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+
+                    .mainpictureprice2{
+                        width: 96%;
+                        height: 30%;
+                        margin-left: 4%;
+                        // background-color: sienna;
+                        @include flexMatch(column);
+                        gap: 5px;
+
+                        .nameofphone2{
+                            font-family: robotoregular;
+                            font-size: 13px;
+                        }
+
+                        .actualprice2{
+                            font-family: robotobold;
+                        }
+
+                        .delpart2{
+                            font-family: robotolight;
+                            color: #c0bfbf;
+                        }
+                    }
+                }
+            }
+        }
 
     }
 }

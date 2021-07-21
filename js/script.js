@@ -294,6 +294,40 @@ for(x in listOfPickture){
 }
 // this is the end of the first section of the picture
 
+// this is the second of the list picture section
+
+let secondListOfPickture =[
+    {discount:"-16%", picvalue:"/image/1 (6).jpg", nameofphone:"Women's Fashion Sneak...", pricename:"$ 75,995", delpart:"$90,000"},
+    {discount:"-27%", picvalue:"/image/1 (7).jpg", nameofphone:"Defacto Woman White...", pricename:"$ 75,995", delpart:"$90,000"},
+    {discount:"-36%", picvalue:"/image/1 (8).jpg", nameofphone:"Defacto Woman Turq...", pricename:"$ 75,995", delpart:"$90,000"},
+    {discount:"-65%", picvalue:"/image/1 (9).jpg", nameofphone:"Defacto Woman Orange...", pricename:"$ 75,995", delpart:"$90,000"},
+    {discount:"-35%", picvalue:"/image/1 (10).jpg", nameofphone:"Defacto Woman Karma...", pricename:"$ 75,995", delpart:"$90,000"},
+    {discount:"-39%", picvalue:"/image/1 (11).jpg", nameofphone:"Women Bead Chain Sequins...", pricename:"$ 75,995", delpart:"$90,000"}
+]
+
+let MainPictureBox2 = document.querySelector('.mainpicturebox2');
+
+for(x in secondListOfPickture){
+
+    MainPictureBox2.innerHTML += `
+    
+    <div class="mainpictureholder2">
+                        <div class="discountvalue2">
+                            <p>${secondListOfPickture[x].discount}</p>
+                        </div>
+                        <div class="mainpicturecon2">
+                            <img src="${secondListOfPickture[x].picvalue}">
+                        </div>
+                        <div class="mainpictureprice2">
+                            <p class="nameofphone2">${secondListOfPickture[x].nameofphone}</p>
+                            <p class="actualprice2">${secondListOfPickture[x].pricename}</p>
+                            <p class="delpart2"><del>${secondListOfPickture[x].delpart}</del></p>
+                        </div>
+                    </div> 
+    
+    
+    `
+}
 
 
 
