@@ -981,7 +981,7 @@
 
 .wallpaper {
   width: 100%;
-  height: 2000px;
+  height: 3000px;
   background-color: #f9fafb;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1000,7 +1000,7 @@
 
 .wallpaper .generalcont {
   width: 85%;
-  height: 1970px;
+  height: 2970px;
   background-color: transparent;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1706,5 +1706,205 @@
 .wallpaper .generalcont .secondpicturesection .mainpicturebox2 .mainpictureholder2 .mainpictureprice2 .delpart2 {
   font-family: robotolight;
   color: #c0bfbf;
+}
+
+.wallpaper .generalcont .multiplepicture {
+  width: 100%;
+  height: 400px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.wallpaper .generalcont .multiplepicture .doublewrite {
+  width: 100%;
+  height: 15%;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wallpaper .generalcont .multiplepicture .doublewrite .ourshopping {
+  font-family: robotoregular;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.wallpaper .generalcont .multiplepicture .conformultiple {
+  width: 100%;
+  height: 85%;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.wallpaper .generalcont .multiplepicture .conformultiple .onemultiplepic {
+  width: 100%;
+  height: 50%;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.wallpaper .generalcont .multiplepicture .conformultiple .onemultiplepic .mainpictureholder3 {
+  width: 16%;
+  height: 90%;
+  cursor: pointer;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.wallpaper .generalcont .multiplepicture .conformultiple .onemultiplepic .mainpictureholder3:hover {
+  -webkit-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.25);
+}
+
+.wallpaper .generalcont .multiplepicture .conformultiple .onemultiplepic .mainpictureholder3 .mainpicturecon3 {
+  width: 100%;
+  height: 75%;
+  background-color: seagreen;
+}
+
+.wallpaper .generalcont .multiplepicture .conformultiple .onemultiplepic .mainpictureholder3 .mainpicturecon3 img {
+  width: 100%;
+  height: 100%;
+}
+
+.wallpaper .generalcont .multiplepicture .conformultiple .onemultiplepic .mainpictureholder3 .mainpictureprice3 {
+  width: 96%;
+  height: 25%;
+  margin-left: 4%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wallpaper .generalcont .multiplepicture .conformultiple .onemultiplepic .mainpictureholder3 .mainpictureprice3 .nameofphone3 {
+  font-family: robotoregular;
+  font-size: 17px;
+}
+
+.wallpaper .generalcont .multiplepicture .conformultiple .onemultiplepic1 {
+  width: 100%;
+  height: 50%;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.wallpaper .generalcont .multiplepicture .conformultiple .onemultiplepic1 .mainpictureholder4 {
+  width: 16%;
+  height: 90%;
+  cursor: pointer;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.wallpaper .generalcont .multiplepicture .conformultiple .onemultiplepic1 .mainpictureholder4:hover {
+  -webkit-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.25);
+}
+
+.wallpaper .generalcont .multiplepicture .conformultiple .onemultiplepic1 .mainpictureholder4 .mainpicturecon4 {
+  width: 100%;
+  height: 75%;
+  background-color: seagreen;
+}
+
+.wallpaper .generalcont .multiplepicture .conformultiple .onemultiplepic1 .mainpictureholder4 .mainpicturecon4 img {
+  width: 100%;
+  height: 100%;
+}
+
+.wallpaper .generalcont .multiplepicture .conformultiple .onemultiplepic1 .mainpictureholder4 .mainpictureprice4 {
+  width: 96%;
+  height: 25%;
+  margin-left: 4%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wallpaper .generalcont .multiplepicture .conformultiple .onemultiplepic1 .mainpictureholder4 .mainpictureprice4 .nameofphone4 {
+  font-family: robotoregular;
+  font-size: 17px;
 }
 /*# sourceMappingURL=main.css.map */

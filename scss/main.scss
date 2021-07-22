@@ -718,14 +718,14 @@
 // this  is for the wallpaper section.
 .wallpaper{
     width: 100%;
-    height: 2000px;
+    height: 3000px;
     background-color: $primary-color;
     @include flexCenter(column);
     // margin-top: 10px;
 
     .generalcont{
         width: 85%;
-        height: 1970px;
+        height: 2970px;
         background-color: transparent;
         @include flexMatch(column);
         gap: 20px;
@@ -1288,6 +1288,139 @@
                         .delpart2{
                             font-family: robotolight;
                             color: #c0bfbf;
+                        }
+                    }
+                }
+            }
+        }
+
+        .multiplepicture{
+            width: 100%;
+            height: 400px;
+            background-color: white;
+            @include flexMatch(column);
+            box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.25);
+            border-radius: 10px;
+            overflow: hidden;
+
+            .doublewrite{
+                width: 100%;
+                height: 15%;
+                background-color:white;
+                @include flexMatch(row);
+                align-items: center;
+
+                .ourshopping{
+                    font-family: robotoregular;
+                    margin-left: 10px;
+                    font-size: 20px;
+                }
+              
+            }
+
+            .conformultiple{
+                width: 100%;
+                height: 85%;
+                background-color: white;
+                @include flexMatch(column);
+                // gap: 5px;
+
+                .onemultiplepic{
+                    width: 100%;
+                    height: 50%;
+                    background-color: white;
+                    @include flexCenter(row);
+                    gap: 10px;
+
+                    .mainpictureholder3{
+                        width: 16%;
+                        height: 90%;
+                        cursor: pointer;
+                        background-color: white;
+                        @include flexMatch(column);
+    
+                        &:hover{
+                            box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.25);
+                        }
+    
+                     
+    
+                        .mainpicturecon3{
+                            width: 100%;
+                            height: 75%;
+                            background-color: seagreen;
+    
+                            img{
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+    
+                        .mainpictureprice3{
+                            width: 96%;
+                            height: 25%;
+                            margin-left: 4%;
+                            // background-color: sienna;
+                            @include flexMatch(column);
+                            align-items: center;
+                            justify-content: center;
+                            // gap: 5px;
+    
+                            .nameofphone3{
+                                font-family: robotoregular;
+                                font-size: 17px;
+                            }
+                               
+                        }
+                    }
+                }
+
+                .onemultiplepic1{
+                    width: 100%;
+                    height: 50%;
+                    background-color: white;
+                    @include flexCenter(row);
+                    gap: 10px;
+
+                    .mainpictureholder4{
+                        width: 16%;
+                        height: 90%;
+                        cursor: pointer;
+                        background-color: white;
+                        @include flexMatch(column);
+    
+                        &:hover{
+                            box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.25);
+                        }
+    
+                     
+    
+                        .mainpicturecon4{
+                            width: 100%;
+                            height: 75%;
+                            background-color: seagreen;
+    
+                            img{
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+    
+                        .mainpictureprice4{
+                            width: 96%;
+                            height: 25%;
+                            margin-left: 4%;
+                            // background-color: sienna;
+                            @include flexMatch(column);
+                            align-items: center;
+                            justify-content: center;
+                            // gap: 5px;
+    
+                            .nameofphone4{
+                                font-family: robotoregular;
+                                font-size: 17px;
+                            }
+                               
                         }
                     }
                 }

@@ -329,5 +329,74 @@ for(x in secondListOfPickture){
     `
 }
 
+// this is for the multiple table pictures
+
+
+
+let multiplePic = [
+    {discount:"-16%", picvalue:"/image/eid-fashion_192x107.jpg", nameOfProduct:"Eid Fashion"},
+    {discount:"-27%", picvalue:"/image/stay-connected_192x107.jpg", nameOfProduct:"Stay Connected"},
+    {discount:"-36%", picvalue:"/image/kitchen-aid_192x107.jpg", nameOfProduct:"Kitchen Aids"},
+    {discount:"-65%", picvalue:"/image/workation_192x107.jpg", nameOfProduct:"Workation"},
+    {discount:"-35%", picvalue:"/image/vacation_192x107.jpg", nameOfProduct:"Vacation"},
+    {discount:"-39%", picvalue:"/image/accessories-to-go_192x107.jpg", nameOfProduct:"Accessories To Go"}
+    
+];
+
+let oneMultiplePic  = document.querySelector('.onemultiplepic');
+
+for(x in multiplePic){
+
+    oneMultiplePic.innerHTML += `
+
+    <div class="mainpictureholder3">
+                               
+                                <div class="mainpicturecon3">
+                                    <img src="${multiplePic[x].picvalue}" alt="another">
+                                </div>
+                                <div class="mainpictureprice3">
+                                    <p class="nameofphone3">${multiplePic[x].nameOfProduct}</p>                           
+                                </div>
+                            </div>
+    
+    
+    
+    
+    `
+}
+
+
+let multiplePic2 = [
+    { picvalue:"/image/under_5k_192x107.jpg", nameOfProduct:"Under 5k"},
+    { picvalue:"/image/halfprice-store_192x107.jpg", nameOfProduct:"Half Price Store"},
+    { picvalue:"/image/best-price_192x107.jpg", nameOfProduct:"Best Price"},
+    { picvalue:"/image/power-on_192x107.jpg", nameOfProduct:"Power On"},
+    { picvalue:"/image/rain-protection_192x107.jpg", nameOfProduct:"Rain Protection"},
+    { picvalue:"/image/shopping-festival_192x107.jpg", nameOfProduct:"Shopping Festival"}
+    
+];
+
+let oneMultiplePic2  = document.querySelector('.onemultiplepic1');
+
+for(x in multiplePic2){
+
+    oneMultiplePic2.innerHTML += `
+
+    <div class="mainpictureholder4">
+                               
+                                <div class="mainpicturecon4">
+                                    <img src="${multiplePic2[x].picvalue}" alt="another">
+                                </div>
+                                <div class="mainpictureprice4">
+                                    <p class="nameofphone4">${multiplePic2[x].nameOfProduct}</p>                           
+                                </div>
+                            </div>
+    
+    
+    
+    
+    `
+}
+
 
 
